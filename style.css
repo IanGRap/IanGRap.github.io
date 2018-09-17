@@ -32,3 +32,25 @@ body {
 	text-decoration: none;
 	color: #FF007F;
 }
+
+.project-card {
+	border-radius: 0.5;
+	background-color: #FF007F;
+	padding: 20px;
+	margin: auto;
+	margin-top: 20px;
+	width: 85%;
+}
+
+.project-thumbnail {
+	background-color: #3E92CC;
+}
+
+.project-name {
+	text-align: center;
+}
+
+.project-details {
+	text-align: center;
+}
+
