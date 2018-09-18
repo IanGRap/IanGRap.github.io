@@ -1,6 +1,12 @@
 body {	
 	padding: 50px;
 	font-family: "Roboto";
+	background-color: #ADD7F6;
+	color: #424242;
+}
+
+#title {
+	font-family: "Oswald";
 }
 
 #border {
@@ -22,32 +28,34 @@ body {
 	flex-direction: row-reverse;
 }
 
-.page_link {
+.local-link {
 	margin-top: 27px;
     margin-right: 10px;
-    color: #3E92CC;
+    color: #FF007F;
 }
 
-.page_link:hover {
+.local-link:hover {
 	text-decoration: none;
-	color: #FF007F;
+	color: #e50072;
 }
 
 .project-card {
 	border-radius: 0.5;
-	background-color: #FF007F;
-	padding: 20px;
 	margin: auto;
 	margin-top: 20px;
-	width: 85%;
+	width: 100%;
+	background-color: #ededed;
+	border-radius: 20px;
+	padding: 20px;
 }
 
 .project-thumbnail {
-	background-color: #3E92CC;
+	max-width: 100%
 }
 
 .project-name {
 	text-align: center;
+	padding-top: 8px;
 }
 
 .project-details {
