@@ -69,6 +69,20 @@ body {
 }
 
 .screenshot {
-	
+	max-width: 100%;
+	margin-top: 20px;
 }
+
+.project-paragraph {
+	border-radius: 0.5;
+	margin: auto;
+	margin-top: 20px;
+	width: 75%;
+	background-color: #4D5061;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+
+
 
