@@ -1,8 +1,8 @@
 body {	
 	padding: 50px;
 	font-family: "Roboto";
-	background-color: #ADD7F6;
-	color: #424242;
+	background-color: #30323D;
+	color: #A5A0A0;
 }
 
 #title {
@@ -10,7 +10,7 @@ body {
 }
 
 #border {
-	background-color: #FF007F;
+	background-color: #ad9334;
 	width: 100%;
 	height: 5px;
 	margin: 0px;
@@ -31,12 +31,12 @@ body {
 .local-link {
 	margin-top: 27px;
     margin-right: 10px;
-    color: #FF007F;
+    color: #ad9334;
 }
 
 .local-link:hover {
 	text-decoration: none;
-	color: #e50072;
+	color: #e8c545;
 }
 
 .project-card {
@@ -44,9 +44,10 @@ body {
 	margin: auto;
 	margin-top: 20px;
 	width: 100%;
-	background-color: #ededed;
+	background-color: #4D5061;
 	border-radius: 20px;
 	padding: 20px;
+	height: 475px;
 }
 
 .project-thumbnail {
@@ -54,11 +55,9 @@ body {
 }
 
 .project-name {
-	text-align: center;
 	padding-top: 8px;
 }
 
 .project-details {
-	text-align: center;
 }
 
