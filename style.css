@@ -18,6 +18,11 @@ body {
 	margin: 0px;
 }
 
+#page-title {
+	margin-top: 25px;
+	margin-left: 50px;
+}
+
 .logo {
 	width: 40px;
 	height: 40px;
@@ -62,3 +67,8 @@ body {
 
 .project-details {
 }
+
+.screenshot {
+	
+}
+
