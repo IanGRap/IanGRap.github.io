@@ -46,6 +46,15 @@ body {
 	color: #e8c545;
 }
 
+.away-link {
+    color: #ad9334;
+}
+
+.away-link:hover {
+	text-decoration: none;
+	color: #e8c545;
+}
+
 .project-card {
 	border-radius: 0.5;
 	margin: auto;
@@ -83,6 +92,9 @@ body {
 	padding: 30px;
 }
 
-
+.bullets {
+	font-size: 1.5rem;
+	padding: 20px;
+}
 
 
