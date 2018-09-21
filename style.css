@@ -35,6 +35,7 @@ body {
 	flex-direction: row-reverse;
 	max-height: 150px;
 	flex-wrap: wrap;
+	align-self: flex-end;
 }
 
 .local-link {
@@ -119,12 +120,19 @@ body {
 	.local-link {
 		font-size: 1.45rem;
 	}
-	.links {
-		flex-direction: column;
-		float: right;
-	}
 	.project-card {
 		height: auto;
+	}
+	.logo {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@media (max-width:895px){
+	.links{
+		max-width: 58%;
+		left: 18%;
 	}
 }
 
