@@ -20,7 +20,7 @@ body {
 
 #page-title {
 	margin-top: 25px;
-	margin-left: 50px;
+	margin-left: 20px;
 }
 
 .logo {
@@ -83,7 +83,6 @@ body {
 }
 
 .project-paragraph {
-	border-radius: 0.5;
 	margin: auto;
 	margin-top: 20px;
 	width: 75%;
@@ -97,12 +96,16 @@ body {
 	padding: 20px;
 }
 
-.screenshot-border {
-
+.small-font {
+	font-size: 1.25rem;
 }
 
 .profile {
 	max-width: 75%;
+	border-color: #424242;
+	border-width: thick;
+	border-style: solid;
+	margin-left: 12.5%;
 }
 
 
