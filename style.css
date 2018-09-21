@@ -69,7 +69,8 @@ body {
 }
 
 .project-thumbnail {
-	max-width: 100%
+	max-width: 100%;
+	min-width: 100%;
 }
 
 .project-name {
@@ -121,6 +122,9 @@ body {
 	.links {
 		flex-direction: column;
 		float: right;
+	}
+	.project-card {
+		height: auto;
 	}
 }
 
