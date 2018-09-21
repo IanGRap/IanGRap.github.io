@@ -7,6 +7,10 @@ body {
     margin: auto;
 }
 
+img {
+	display: block;
+}
+
 #title {
 	font-family: "Oswald";
 }
