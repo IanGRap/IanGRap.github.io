@@ -112,7 +112,7 @@ body {
 	margin-left: 12.5%;
 }
 
-@media (max-width:992px){
+@media (max-width:991px){
 	.local-link {
 		font-size: 1.45rem;
 	}
@@ -123,10 +123,6 @@ body {
 	.project-card {
 		height: auto;
 	}
-}
-
-@media (max-width:768px){
-	
 }
 
 
