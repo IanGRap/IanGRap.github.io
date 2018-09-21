@@ -33,6 +33,8 @@ body {
 .links {
 	display: flex;
 	flex-direction: row-reverse;
+	max-height: 150px;
+	flex-wrap: wrap;
 }
 
 .local-link {
@@ -108,5 +110,17 @@ body {
 	margin-left: 12.5%;
 }
 
+@media (max-width:992px){
+	.local-link {
+		font-size: 1.45rem;
+	}
+}
+
+@media (max-width:768px){
+	.links {
+		flex-direction: column;
+		float: right;
+	}
+}
 
 
