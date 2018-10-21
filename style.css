@@ -1,10 +1,19 @@
 body {	
 	padding: 50px;
 	font-family: "Roboto";
-	background-color: #30323D;
-	color: #A5A0A0;
+	background-color: #E6E8E6;
+	color: #FF3366;
 	max-width: 1200px;
     margin: auto;
+}
+
+a {
+    color: #DC7F9B;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FF3366;
 }
 
 #title {
@@ -12,7 +21,7 @@ body {
 }
 
 #border {
-	background-color: #ad9334;
+	background-color: #FF3366;
 	width: 100%;
 	height: 5px;
 	margin: 0px;
@@ -22,6 +31,7 @@ body {
 #page-title {
 	margin-top: 25px;
 	margin-left: 20px;
+	color: #626575;
 }
 
 .logo {
@@ -39,24 +49,22 @@ body {
 	align-self: flex-end;
 }
 
-.local-link {
+.header-link {
+	margin-right: 10px;
 	margin-top: 27px;
-    margin-right: 10px;
-    color: #ad9334;
+    color: #FF3366;
 }
 
-.local-link:hover {
-	text-decoration: none;
-	color: #e8c545;
+.header-link:hover {
+	color: #DC7F9B;
 }
 
 .away-link {
-    color: #ad9334;
+	color: #FF3366;
 }
 
 .away-link:hover {
-	text-decoration: none;
-	color: #e8c545;
+	color: #DC7F9B;
 }
 
 .project-card {
@@ -64,7 +72,8 @@ body {
 	margin: auto;
 	margin-top: 20px;
 	width: 100%;
-	background-color: #4D5061;
+	background-color: #626575;
+	color: #E6E8E6;
 	border-radius: 20px;
 	padding: 20px;
 	height: 575px;
@@ -93,7 +102,8 @@ body {
 	margin: auto;
 	margin-top: 20px;
 	width: 75%;
-	background-color: #4D5061;
+	background-color: #626575;
+	color: #E6E8E6;
 	border-radius: 10px;
 	padding: 30px;
 }
@@ -101,6 +111,7 @@ body {
 .bullets {
 	font-size: 1.5rem;
 	padding: 20px;
+	color: #626575;
 }
 
 .small-font {
