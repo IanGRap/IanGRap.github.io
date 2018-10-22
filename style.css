@@ -59,6 +59,12 @@ a:hover {
 	color: #DC7F9B;
 }
 
+.footer-link {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 15px;
+}
+
 .away-link {
 	color: #FF3366;
 }
@@ -130,7 +136,7 @@ a:hover {
 	#border {
 		margin-top: 10px;
 	}
-	.local-link {
+	.header-link {
 		font-size: 1.45rem;
 	}
 	.project-card {
