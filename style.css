@@ -1,6 +1,6 @@
 body {	
 	padding: 50px;
-	font-family: "Roboto";
+	font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif; 
 	background-color: #E6E8E6;
 	color: #FF3366;
 	max-width: 1200px;
@@ -31,6 +31,7 @@ a:hover {
 #page-title {
 	margin-top: 25px;
 	color: #626575;
+	font-family: "Oswald";
 }
 
 .logo {
@@ -92,6 +93,7 @@ a:hover {
 .project-name {
 	padding-top: 8px;
 	margin-bottom: 7px;
+	font-family: "Oswald";
 }
 
 .project-details {
@@ -106,11 +108,12 @@ a:hover {
 .project-paragraph {
 	margin: auto;
 	margin-top: 20px;
-	width: 75%;
+	width: 95%;
 	background-color: #626575;
 	color: #E6E8E6;
 	border-radius: 10px;
 	padding: 30px;
+	font-size: 18px;
 }
 
 .bullets {
