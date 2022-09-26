@@ -6,6 +6,7 @@
       $(function(){
         $('#header').load('header.html');
         $('#page-header').load('page_header.html');
+		$('#multiversus-thumbnail').load('multiversus_thumbnail.html');
         $('#squish-thumbnail').load('squish_thumbnail.html');
         $('#bottom-thumbnail').load('bottom_thumbnail.html');
         $('#juanito-thumbnail').load('juanito_thumbnail.html');
@@ -22,9 +23,17 @@
     <div id="page-header"></div>
 
     <div class="row">
-      <div class="col-md-12 col-lg-4">
+      <div class="col-md-12 col-lg-6">
+        <div id='multiversus-thumbnail'></div>
+      </div>
+	  <div class="col-md-12 col-lg-6">
         <div id='squish-thumbnail'></div>
       </div>
+    </div>
+
+    <h2 id="page-title">Other Projects</h2>
+
+    <div class="row">
       <div class="col-md-12 col-lg-4">
         <div id='bottom-thumbnail'></div>
       </div>
@@ -37,12 +46,7 @@
       <div class="col-md-12 col-lg-4">
         <div id='bomber-thumbnail'></div>
       </div>
-    </div>
-
-    <h2 id="page-title">Other Projects</h2>
-
-    <div class="row">
-      <div class="col-md-12 col-lg-4">
+	  <div class="col-md-12 col-lg-4">
         <div id='onelast-thumbnail'></div>
       </div>
       <div class="col-md-12 col-lg-4">
