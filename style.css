@@ -85,6 +85,18 @@ a:hover {
 	height: 800px;
 }
 
+.project-card-small {
+	border-radius: 0.5;
+	margin: auto;
+	margin-top: 20px;
+	width: 100%;
+	background-color: #626575;
+	color: #E6E8E6;
+	border-radius: 20px;
+	padding: 20px;
+	height: 650px;
+}
+
 .project-thumbnail {
 	max-width: 100%;
 	min-width: 100%;
