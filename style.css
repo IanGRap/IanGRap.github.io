@@ -16,6 +16,12 @@ a:hover {
 	color: #FF3366;
 }
 
+#preloader {
+	height: 100vh;
+	width: 100%;
+	z-index: 100;
+}
+
 #title {
 	font-family: "Oswald";
 }
