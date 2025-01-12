@@ -3,8 +3,10 @@ function backToTop(){
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-var loader = document.getElementById("preloader");
+<script>
+    var loader = document.getElementById("preloader");
 
-window.addEventListener("load", function(){
-    loader.style.display = "none";
-})
+    window.addEventListener("load", function(){
+        loader.style.display = "none";
+    })
+</script>
