@@ -1,10 +1,14 @@
-var loader = document.getElementById("preloader");
+<script>
 
-window.addEventListener("load", function(){
-    loader.style.display = "none";
-})
+    var loader = document.getElementById("preloader");
 
-function backToTop(){
-	document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+    window.addEventListener("load", function(){
+        preloader.style.display = "none";
+    })
+
+    function backToTop(){
+	    document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
+</script>
