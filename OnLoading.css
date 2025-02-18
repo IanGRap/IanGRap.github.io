@@ -1,0 +1,8 @@
+body {
+	background-color: #E6E8E6;
+	color: #FF3366;
+}
+
+.on-loading{
+	visibility: hidden;
+}

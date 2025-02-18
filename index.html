@@ -1,7 +1,9 @@
 <html lang="en" class="locale-us max  has-svg" data-locale="us">
 
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="OnLoading.css">
+	<script src="OnLoad.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
       $(function(){
         $('#header').load('header.html');
@@ -31,7 +33,7 @@
       </div>
     </div>
 
-    <h2 id="page-title">Other Projects</h2>
+    <h2 id="page-title" class="on-loading">Other Projects</h2>
 
     <div class="row">
       <div class="col-md-12 col-lg-4">
@@ -54,7 +56,7 @@
       </div>
     </div>
 
-    <a href="#" class="local-link footer-link" onclick="backToTop()"><h3>Back to Top</h3>
+    <a href="#" class="local-link footer-link on-loading" onclick="backToTop()"><h3>Back to Top</h3>
 
   </body>
 
