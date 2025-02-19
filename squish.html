@@ -1,7 +1,9 @@
 <html lang="en" class="locale-us max  has-svg" data-locale="us">
 
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="OnLoading.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="OnLoad.js"></script>
     <script>
       $(function(){
         $('#header').load('header.html');
@@ -11,59 +13,60 @@
   </head>
 
   <body>
+	<script>
+		$(function(){
+		$('#page-header').load('page_header.html');
+		})
+	</script>
+	<div class="hide-while-loading">
+		<div id="page-header"></div>
 
-    <script>
-      $(function(){
-        $('#page-header').load('page_header.html');
-      })
-    </script>
-    <div id="page-header"></div>
+		<h2 id="page-title">Squish</h2>
 
-    <h2 id="page-title">Squish</h2>
+		<img src="images/squish_2.jpg" class="screenshot">
 
-    <img src="images/squish_2.jpg" class="screenshot">
+		<div class="row">
+		  <div class="col-4">
+			<div class="bullets">
+			  <a href="https://www.youtube.com/watch?v=JD-kBqJ7R-s&t=0s" class="local-link">
+				<p>Watch</p>
+			  </a>
+			  <a href="https://www.nintendo.com/store/products/squish-switch/" class="away-link">
+				<p>Switch</p>
+			  </a>
+			  <a href="https://store.steampowered.com/app/1631830/Squish/" class="away-link">
+				<p>Steam</p>
+			  </a>
+			  <a href="https://www.play-squish.com/" class="away-link">
+				<p>More Info</p>
+			  </a>
+			  <p>Tools: Unity, C#</p>
+			  <p>Duration: September 2018 - September 2019</p>
+			  <p>Team Size: 10</p>
+			  <p>Roles: Lead Designer, Programmer</p>
+			</div>
+		  </div>
+		  <div class="col-8">
+			<div class="project-paragraph">
+			  Squish is now a full release on the Nintendo Switch and Steam! I was the Lead Designer and a Programmer on Squish, my senior capstone project at the UCSC games program.s of blocks into their opponents. Players must analyze their environment and pinpoint which blocks to push to ensure safe passage for themselves, while also ensuing as much chaos as possible on their competition.
+			  <br><br>
+			  As the lead designer, I worked to facilitate that everyone on the team was able to give input about our design direction. I oversaw design meetings and campaigned for ideas that would introduce more dynamics regarding our core interactions of terrain manipulation, while still being within our extremely limited time table. In particular, I pushed the team toward focusing on new block types like the meteor block (a block that falls and destroys everything it touches) and cross bomb blocks (a timed bomb block that makes a cross like explosion similar to bomberman). By destroying groups of blocks in different patterns, these additions helped to make changes in the environment more dynamic and keep the play space more varied. 
+			  <br><br>
+			  As a programmer, I participated in pair programming and code reviews with my team to ensure that each of our programmers had an increased familiarity with our code base. Some of the parts of Squish that I wrote code for include block pushing, a camera that dynamically tracks action of the game and an AI that varies the spawn rate of blocks based on the game state.
+			</div>
+		  </div>
+		</div>
 
-    <div class="row">
-      <div class="col-4">
-        <div class="bullets">
-          <a href="https://www.youtube.com/watch?v=JD-kBqJ7R-s&t=0s" class="local-link">
-            <p>Watch</p>
-          </a>
-          <a href="https://www.nintendo.com/store/products/squish-switch/" class="away-link">
-            <p>Switch</p>
-          </a>
-		  <a href="https://store.steampowered.com/app/1631830/Squish/" class="away-link">
-            <p>Steam</p>
-          </a>
-          <a href="https://www.play-squish.com/" class="away-link">
-            <p>More Info</p>
-          </a>
-          <p>Tools: Unity, C#</p>
-          <p>Duration: September 2018 - September 2019</p>
-          <p>Team Size: 10</p>
-          <p>Roles: Lead Designer, Programmer</p>
-        </div>
-      </div>
-      <div class="col-8">
-        <div class="project-paragraph">
-          Squish is now a full release on the Nintendo Switch and Steam! I was the Lead Designer and a Programmer on Squish, my senior capstone project at the UCSC games program.s of blocks into their opponents. Players must analyze their environment and pinpoint which blocks to push to ensure safe passage for themselves, while also ensuing as much chaos as possible on their competition.
-          <br><br>
-          As the lead designer, I worked to facilitate that everyone on the team was able to give input about our design direction. I oversaw design meetings and campaigned for ideas that would introduce more dynamics regarding our core interactions of terrain manipulation, while still being within our extremely limited time table. In particular, I pushed the team toward focusing on new block types like the meteor block (a block that falls and destroys everything it touches) and cross bomb blocks (a timed bomb block that makes a cross like explosion similar to bomberman). By destroying groups of blocks in different patterns, these additions helped to make changes in the environment more dynamic and keep the play space more varied. 
-          <br><br>
-          As a programmer, I participated in pair programming and code reviews with my team to ensure that each of our programmers had an increased familiarity with our code base. Some of the parts of Squish that I wrote code for include block pushing, a camera that dynamically tracks action of the game and an AI that varies the spawn rate of blocks based on the game state.
-        </div>
-      </div>
-    </div>
-
-    <img src="images/squish_1.jpg" class="screenshot">
+		<img src="images/squish_1.jpg" class="screenshot">
     
-    <img src="images/squish_3.jpg" class="screenshot">
+		<img src="images/squish_3.jpg" class="screenshot">
 
-    <img src="images/squish_6.jpg" class="screenshot">
+		<img src="images/squish_6.jpg" class="screenshot">
 
-    <img src="images/squish_7.jpg" class="screenshot">
+		<img src="images/squish_7.jpg" class="screenshot">
 
-    <a href="#" class="local-link footer-link" onclick="backToTop()"><h3>Back to Top</h3>
+		<a href="#" class="local-link footer-link" onclick="backToTop()"><h3>Back to Top</h3>
+	</div>
 
   </body>
 

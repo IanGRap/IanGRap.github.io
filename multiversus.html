@@ -1,7 +1,9 @@
 <html lang="en" class="locale-us max  has-svg" data-locale="us">
 
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="OnLoading.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="OnLoad.js"></script>
     <script>
       $(function(){
         $('#header').load('header.html');
@@ -11,55 +13,56 @@
   </head>
 
   <body>
+	<div class="hide-while-loading">
+		<script>
+		  $(function(){
+			$('#page-header').load('page_header.html');
+		  })
+		</script>
+		<div id="page-header"></div>
 
-    <script>
-      $(function(){
-        $('#page-header').load('page_header.html');
-      })
-    </script>
-    <div id="page-header"></div>
+		<h2 id="page-title">MultiVersus</h2>
 
-    <h2 id="page-title">MultiVersus</h2>
+		<img src="images/multiversus1.jpg" class="screenshot">
 
-    <img src="images/multiversus1.jpg" class="screenshot">
+		<div class="row">
+		  <div class="col-4">
+			<div class="bullets">
+			  <a href="https://www.youtube.com/live/ZS417WsQs6U?si=YQLKMZmfALI-qJ1X&t=2198" class="away-link">
+				<p>Samurai Jack Interview</p>
+			  </a>
+			  <a href="https://youtu.be/j5AtpYPz2Ic?si=CUtds3fKxvd_c2qJ" class="away-link">
+				<p>Samurai Jack Gameplay Trailer</p>
+			  </a>
+			  <a href="https://youtu.be/zQry3nX0wxQ?si=nxQJ4ZwdE1GWe9fH" class="away-link">
+				<p>Agent Smith Gameplay Trailer</p>
+			  </a>
+			  <a href="https://multiversus.com/en" class="away-link">
+				<p>Multiversus Website</p>
+			  </a>
+			  <p>Tools: Unreal</p>
+			  <p>Duration: October 2019 - Currently</p>
+			  <p>Team Size: ~60</p>
+			  <p>Roles: Game Designer</p>
+			</div>
+		  </div>
+		  <div class="col-8">
+			<div class="project-paragraph">
+			  I am a game designer working at Player First Games on the free to play platform fighter Multiversus, which just launched in May 2024. As a designer, I own the designs for fighters, emphasizing clarity, authenticity, novelty, cooperative play and engaging loops. In particular, I am the lead designer for Samurai Jack, Agent Smith from The Matrix, Marvin the Martian and Taz from Looney Tunes, Garnet from Steven Universe, as well as unannounced upcoming fighters. Some of my primary responsibilities include creating pitch documents for fighters, collaborating daily with animators, implementing frame data on fighter attack animations, writing and debugging mechanics through Unreal blueprints for online play and participating in daily playtests. I also led the redesign of our perks system, helped script content for the PVE Rifts mode and even participated in press interviews in the build up to our release and character launches.
+			</div>
+		  </div>
+		</div>
 
-    <div class="row">
-      <div class="col-4">
-        <div class="bullets">
-          <a href="https://www.youtube.com/live/ZS417WsQs6U?si=YQLKMZmfALI-qJ1X&t=2198" class="away-link">
-            <p>Samurai Jack Interview</p>
-          </a>
-		  <a href="https://youtu.be/j5AtpYPz2Ic?si=CUtds3fKxvd_c2qJ" class="away-link">
-            <p>Samurai Jack Gameplay Trailer</p>
-          </a>
-		  <a href="https://youtu.be/zQry3nX0wxQ?si=nxQJ4ZwdE1GWe9fH" class="away-link">
-            <p>Agent Smith Gameplay Trailer</p>
-          </a>
-		  <a href="https://multiversus.com/en" class="away-link">
-            <p>Multiversus Website</p>
-          </a>
-          <p>Tools: Unreal</p>
-          <p>Duration: October 2019 - Currently</p>
-          <p>Team Size: ~60</p>
-          <p>Roles: Game Designer</p>
-        </div>
-      </div>
-      <div class="col-8">
-        <div class="project-paragraph">
-          I am a game designer working at Player First Games on the free to play platform fighter Multiversus, which just launched in May 2024. As a designer, I own the designs for fighters, emphasizing clarity, authenticity, novelty, cooperative play and engaging loops. In particular, I am the lead designer for Samurai Jack, Agent Smith from The Matrix, Marvin the Martian and Taz from Looney Tunes, Garnet from Steven Universe, as well as unannounced upcoming fighters. Some of my primary responsibilities include creating pitch documents for fighters, collaborating daily with animators, implementing frame data on fighter attack animations, writing and debugging mechanics through Unreal blueprints for online play and participating in daily playtests. I also led the redesign of our perks system, helped script content for the PVE Rifts mode and even participated in press interviews in the build up to our release and character launches.
-        </div>
-      </div>
-    </div>
-
-    <img src="images/multiversus2.jpg" class="screenshot">
+		<img src="images/multiversus2.jpg" class="screenshot">
     
-    <img src="images/multiversus3.jpg" class="screenshot">
+		<img src="images/multiversus3.jpg" class="screenshot">
 
-    <img src="images/multiversus4.jpg" class="screenshot">
+		<img src="images/multiversus4.jpg" class="screenshot">
 
-    <img src="images/multiversus5.jpg" class="screenshot">
+		<img src="images/multiversus5.jpg" class="screenshot">
 
-    <a href="#" class="local-link footer-link" onclick="backToTop()"><h3>Back to Top</h3>
+		<a href="#" class="local-link footer-link" onclick="backToTop()"><h3>Back to Top</h3>
+	</div>
 
   </body>
 

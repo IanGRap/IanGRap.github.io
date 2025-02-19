@@ -1,7 +1,9 @@
 <html lang="en" class="locale-us max  has-svg" data-locale="us">
 
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="OnLoading.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="OnLoad.js"></script>
     <script>
       $(function(){
         $('#header').load('header.html');
@@ -17,47 +19,49 @@
         $('#page-header').load('page_header.html');
       })
     </script>
-    <div id="page-header"></div>
+	<div class="hide-while-loading">
+		<div id="page-header"></div>
 
-    <h2 id="page-title">Emma's Journey</h2>
+		<h2 id="page-title">Emma's Journey</h2>
 
-    <img src="images/emma1.jpg" class="screenshot">
+		<img src="images/emma1.jpg" class="screenshot">
 
-    <div class="row">
-      <div class="col-4">
-        <div class="bullets">
-          <a href="https://emmasjourney.soe.ucsc.edu/index.html" class="away-link">
-            <p>Play</p>
-          </a>
-          <a href="https://github.com/LudoNarrative/StoryAssembler" class="away-link">
-            <p>Check out StoryAssembler</p>
-          </a>
-          <p>Tools: Javascript, JSON, StoryAssembler</p>
-          <p>Duration: March 2017 - June 2017</p>
-          <p>Team Size: ~15</p>
-          <p>Roles: Writer, Tester</p>
-        </div>
-      </div>
-      <div class="col-8">
-        <div class="project-paragraph">
-          Emma's journey is a graduate student game made at the University of California Santa Cruz that I assisted on during my Sophmore year of school. It is a branching narrative game where the player assumes the role of Emma and follows her as she works to combat climate change. It was made for the web using StoryAssembler: a JSON based program made in the UCSC graduate school and used for making narrative games.
-          <br><br>
-          I worked primarily as a writer, barinstorming and writing dialogue for scenes in the game. I would then write the dialogue into the StoryAssembler program, connecting logic, assigning variables and providing feedback for my teammates that were working specifically on StoryAssembler. I wrote large portions of the dinner, dean and UN scenes in the game, but also assisted with and revised all the game's scenes.
-        </div>
-      </div>
-    </div>
+		<div class="row">
+		  <div class="col-4">
+			<div class="bullets">
+			  <a href="https://emmasjourney.soe.ucsc.edu/index.html" class="away-link">
+				<p>Play</p>
+			  </a>
+			  <a href="https://github.com/LudoNarrative/StoryAssembler" class="away-link">
+				<p>Check out StoryAssembler</p>
+			  </a>
+			  <p>Tools: Javascript, JSON, StoryAssembler</p>
+			  <p>Duration: March 2017 - June 2017</p>
+			  <p>Team Size: ~15</p>
+			  <p>Roles: Writer, Tester</p>
+			</div>
+		  </div>
+		  <div class="col-8">
+			<div class="project-paragraph">
+			  Emma's journey is a graduate student game made at the University of California Santa Cruz that I assisted on during my Sophmore year of school. It is a branching narrative game where the player assumes the role of Emma and follows her as she works to combat climate change. It was made for the web using StoryAssembler: a JSON based program made in the UCSC graduate school and used for making narrative games.
+			  <br><br>
+			  I worked primarily as a writer, barinstorming and writing dialogue for scenes in the game. I would then write the dialogue into the StoryAssembler program, connecting logic, assigning variables and providing feedback for my teammates that were working specifically on StoryAssembler. I wrote large portions of the dinner, dean and UN scenes in the game, but also assisted with and revised all the game's scenes.
+			</div>
+		  </div>
+		</div>
 
-    <img src="images/emma2.jpg" class="screenshot">
+		<img src="images/emma2.jpg" class="screenshot">
 
-    <img src="images/emma3.jpg" class="screenshot">
+		<img src="images/emma3.jpg" class="screenshot">
 
-    <img src="images/emma4.jpg" class="screenshot">
+		<img src="images/emma4.jpg" class="screenshot">
 
-    <img src="images/emma5.jpg" class="screenshot">
+		<img src="images/emma5.jpg" class="screenshot">
 
-    <img src="images/emma6.jpg" class="screenshot">
+		<img src="images/emma6.jpg" class="screenshot">
 
-    <a href="#" class="local-link footer-link" onclick="backToTop()"><h3>Back to Top</h3>
+		<a href="#" class="local-link footer-link" onclick="backToTop()"><h3>Back to Top</h3>
+	</div>
     
   </body>
 

@@ -1,7 +1,9 @@
 <html lang="en" class="locale-us max  has-svg" data-locale="us">
 
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="OnLoading.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="OnLoad.js"></script>
     <script>
       $(function(){
         $('#header').load('header.html');
@@ -17,49 +19,51 @@
         $('#page-header').load('page_header.html');
       })
     </script>
-    <div id="page-header"></div>
+	<div class="hide-while-loading">
+		<div id="page-header"></div>
 
-    <h2 id="page-title">Juanito el Nahualito</h2>
+		<h2 id="page-title">Juanito el Nahualito</h2>
 
-    <img src="images/juanito1.jpg" class="screenshot">
+		<img src="images/juanito1.jpg" class="screenshot">
 
-    <div class="row">
-      <div class="col-4">
-        <div class="bullets">
-          <a href="https://www.youtube.com/watch?v=NurnBwJnNcM" class="away-link">
-            <p>Watch</p>
-          </a>
-          <a href="https://teamnahual.itch.io/juanito-el-nahualito" class="away-link">
-            <p>Download and Play</p>
-          </a>
-          <a href="http://teamnahual.com/#/" class="away-link">
-            <p>More Info</p>
-          </a>
-          <p>Tools: Unity, C#</p>
-          <p>Duration: February 2018 - June 2018</p>
-          <p>Team Size: ~30</p>
-          <p>Roles: Programmer</p>
-        </div>
-      </div>
-      <div class="col-8">
-        <div class="project-paragraph">
-          Juanito is a senior capstone project for the Game Design program at University of California Santa Cruz that I assisted on for 2 quarters of my junior year of school. It is a story focused puzzle game about a boy on a journey to discover his family heritage. The puzzles involve either using the game's spirit mode to direct animals to clear obstacles or pulling and rotating objects around the environment.
-          <br><br>
-          As a programmer, I worked on the games first act where the player must push a medicine crate to a pharmacy. I programmed the physics and pushing/pulling mechanics for the medicine crate, added collisions for the pulley system that the player uses to move the crate up floors and programmed the lever that activates the pulley once both lifts have been loaded. I also made multiple protypes for the butterfly puzzle in the games second act, where the player moves stone pieces in the shape of a butterfly to proceed.
-        </div>
-      </div>
-    </div>
+		<div class="row">
+		  <div class="col-4">
+			<div class="bullets">
+			  <a href="https://www.youtube.com/watch?v=NurnBwJnNcM" class="away-link">
+				<p>Watch</p>
+			  </a>
+			  <a href="https://teamnahual.itch.io/juanito-el-nahualito" class="away-link">
+				<p>Download and Play</p>
+			  </a>
+			  <a href="http://teamnahual.com/#/" class="away-link">
+				<p>More Info</p>
+			  </a>
+			  <p>Tools: Unity, C#</p>
+			  <p>Duration: February 2018 - June 2018</p>
+			  <p>Team Size: ~30</p>
+			  <p>Roles: Programmer</p>
+			</div>
+		  </div>
+		  <div class="col-8">
+			<div class="project-paragraph">
+			  Juanito is a senior capstone project for the Game Design program at University of California Santa Cruz that I assisted on for 2 quarters of my junior year of school. It is a story focused puzzle game about a boy on a journey to discover his family heritage. The puzzles involve either using the game's spirit mode to direct animals to clear obstacles or pulling and rotating objects around the environment.
+			  <br><br>
+			  As a programmer, I worked on the games first act where the player must push a medicine crate to a pharmacy. I programmed the physics and pushing/pulling mechanics for the medicine crate, added collisions for the pulley system that the player uses to move the crate up floors and programmed the lever that activates the pulley once both lifts have been loaded. I also made multiple protypes for the butterfly puzzle in the games second act, where the player moves stone pieces in the shape of a butterfly to proceed.
+			</div>
+		  </div>
+		</div>
 
   
-    <img src="images/juanito2.jpg" class="screenshot">
+		<img src="images/juanito2.jpg" class="screenshot">
   
-    <img src="images/juanito3.jpg" class="screenshot">
+		<img src="images/juanito3.jpg" class="screenshot">
   
-    <img src="images/juanito4.jpg" class="screenshot">
+		<img src="images/juanito4.jpg" class="screenshot">
   
-    <img src="images/juanito5.jpg" class="screenshot">
+		<img src="images/juanito5.jpg" class="screenshot">
 
-    <a href="#" class="local-link footer-link" onclick="backToTop()"><h3>Back to Top</h3>
+		<a href="#" class="local-link footer-link" onclick="backToTop()"><h3>Back to Top</h3>
+	</div>
     
   </body>
 

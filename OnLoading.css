@@ -3,6 +3,6 @@ body {
 	color: #FF3366;
 }
 
-.on-loading{
-	visibility: hidden;
+.hide-while-loading{
+	display: none;
 }

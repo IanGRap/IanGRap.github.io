@@ -1,7 +1,9 @@
 <html lang="en" class="locale-us max  has-svg" data-locale="us">
 
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="OnLoading.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="OnLoad.js"></script>
     <script>
       $(function(){
         $('#header').load('header.html');
@@ -17,45 +19,47 @@
         $('#page-header').load('page_header.html');
       })
     </script>
-    <div id="page-header"></div>
+	<div class="hide-while-loading">
+		<div id="page-header"></div>
 
-    <h2 id="page-title">One Last Stop</h2>
+		<h2 id="page-title">One Last Stop</h2>
 
-    <img src="images/onelast_1.jpg" class="screenshot">
+		<img src="images/onelast_1.jpg" class="screenshot">
 
-    <div class="row">
-      <div class="col-4">
-        <div class="bullets">
-          <a href="https://www.youtube.com/watch?v=w03MoevKtDU" class="away-link">
-            <p>Watch</p>
-          </a>
-          <a href="https://ianstagram.itch.io/one-last-stop" class="away-link">
-            <p>Play</p>
-          </a>
-          <p>Tools: Twine, CSS</p>
-          <p>Duration: February 2017 - March 2017</p>
-          <p>Solo Project</p>
-        </div>
-      </div>
-      <div class="col-8">
-        <div class="project-paragraph">
-          One Last Stop is a narrative game that follows a group of fantasy heroes as they approach their final battle. One of my favorite parts of big story based RPGs is when the player gets the chance to check in with all of their party members before the last mission. I wanted to make a game that focused on this specific moment in games. 
-          <br><br>
-          Over the course of the game, the player chats with each of their companions. The player is given dialogue choices to decide the flow of conversation, with the main focus being on if the player wants to learn more about each character or instead focus on the mission. If the player chooses to inquire about their party members they unlock secret endings that call into questions themes of sacrifice of life for the greater good.
-        </div>
-      </div>
-    </div>
+		<div class="row">
+		  <div class="col-4">
+			<div class="bullets">
+			  <a href="https://www.youtube.com/watch?v=w03MoevKtDU" class="away-link">
+				<p>Watch</p>
+			  </a>
+			  <a href="https://ianstagram.itch.io/one-last-stop" class="away-link">
+				<p>Play</p>
+			  </a>
+			  <p>Tools: Twine, CSS</p>
+			  <p>Duration: February 2017 - March 2017</p>
+			  <p>Solo Project</p>
+			</div>
+		  </div>
+		  <div class="col-8">
+			<div class="project-paragraph">
+			  One Last Stop is a narrative game that follows a group of fantasy heroes as they approach their final battle. One of my favorite parts of big story based RPGs is when the player gets the chance to check in with all of their party members before the last mission. I wanted to make a game that focused on this specific moment in games. 
+			  <br><br>
+			  Over the course of the game, the player chats with each of their companions. The player is given dialogue choices to decide the flow of conversation, with the main focus being on if the player wants to learn more about each character or instead focus on the mission. If the player chooses to inquire about their party members they unlock secret endings that call into questions themes of sacrifice of life for the greater good.
+			</div>
+		  </div>
+		</div>
 
-    <img src="images/onelast_2.jpg" class="screenshot">
+		<img src="images/onelast_2.jpg" class="screenshot">
 
-    <img src="images/onelast_3.jpg" class="screenshot">
+		<img src="images/onelast_3.jpg" class="screenshot">
 
-    <img src="images/onelast_4.jpg" class="screenshot">
+		<img src="images/onelast_4.jpg" class="screenshot">
 
-    <img src="images/onelast_5.jpg" class="screenshot">
+		<img src="images/onelast_5.jpg" class="screenshot">
 
 
-    <a href="#" class="local-link footer-link" onclick="backToTop()"><h3>Back to Top</h3>
+		<a href="#" class="local-link footer-link" onclick="backToTop()"><h3>Back to Top</h3>
+	</div>
 
   </body>
 

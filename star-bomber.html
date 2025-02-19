@@ -1,7 +1,9 @@
 <html lang="en" class="locale-us max  has-svg" data-locale="us">
 
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="OnLoading.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="OnLoad.js"></script>
     <script>
       $(function(){
         $('#header').load('header.html');
@@ -17,43 +19,45 @@
         $('#page-header').load('page_header.html');
       })
     </script>
-    <div id="page-header"></div>
+	<div class="hide-while-loading">
+		<div id="page-header"></div>
 
-    <h2 id="page-title">Star Bomber</h2>
+		<h2 id="page-title">Star Bomber</h2>
 
-    <img src="images/starbomber_2.jpg" class="screenshot">
+		<img src="images/starbomber_2.jpg" class="screenshot">
 
-    <div class="row">
-      <div class="col-4">
-        <div class="bullets">
-          <a href="https://www.youtube.com/watch?v=Xgdel5fOyDE" class="away-link">
-            <p>Watch</p>
-          </a>
-          <a href="https://ianstagram.itch.io/star-bomber" class="away-link">
-            <p>Download and Play</p>
-          </a>
-          <p>Tools: Unity, C#</p>
-          <p>Duration: June 2016 - September 2016</p>
-          <p>Solo Project</p>
-        </div>
-      </div>
-      <div class="col-8">
-        <div class="project-paragraph">
-          Star Bomber is one of the first games I made and my first experience with Unity. It is a turned based shoot 'em up with color based mechanics. During the defensive stage, the player must change the color of their ship to match incoming projectiles while dodging white colored attacks. During the attack, the player must fire projectiles that match the color of pieces of the boss and the color of the super meter at the bottom of the screen. By doing so, they can charge up their special attack to defeat the boss.
-          <br><br>
-          I've always really liked shoot 'em ups but have always found them too difficult. I added the turn based mechanic so that the player doesn't have to focus on shooting and dodging at the same time. I've also found color based mechanics like those seen in Ikaruga to be really easy for players to quickly grasp while adding another layer of depth to movement. 
-        </div>
-      </div>
-    </div>
+		<div class="row">
+		  <div class="col-4">
+			<div class="bullets">
+			  <a href="https://www.youtube.com/watch?v=Xgdel5fOyDE" class="away-link">
+				<p>Watch</p>
+			  </a>
+			  <a href="https://ianstagram.itch.io/star-bomber" class="away-link">
+				<p>Download and Play</p>
+			  </a>
+			  <p>Tools: Unity, C#</p>
+			  <p>Duration: June 2016 - September 2016</p>
+			  <p>Solo Project</p>
+			</div>
+		  </div>
+		  <div class="col-8">
+			<div class="project-paragraph">
+			  Star Bomber is one of the first games I made and my first experience with Unity. It is a turned based shoot 'em up with color based mechanics. During the defensive stage, the player must change the color of their ship to match incoming projectiles while dodging white colored attacks. During the attack, the player must fire projectiles that match the color of pieces of the boss and the color of the super meter at the bottom of the screen. By doing so, they can charge up their special attack to defeat the boss.
+			  <br><br>
+			  I've always really liked shoot 'em ups but have always found them too difficult. I added the turn based mechanic so that the player doesn't have to focus on shooting and dodging at the same time. I've also found color based mechanics like those seen in Ikaruga to be really easy for players to quickly grasp while adding another layer of depth to movement. 
+			</div>
+		  </div>
+		</div>
 
-    <img src="images/starbomber_1.jpg" class="screenshot">
+		<img src="images/starbomber_1.jpg" class="screenshot">
 
-    <img src="images/starbomber_3.jpg" class="screenshot">
+		<img src="images/starbomber_3.jpg" class="screenshot">
 
-    <img src="images/starbomber_4.jpg" class="screenshot">
+		<img src="images/starbomber_4.jpg" class="screenshot">
 
 
-    <a href="#" class="local-link footer-link" onclick="backToTop()"><h3>Back to Top</h3>
+		<a href="#" class="local-link footer-link" onclick="backToTop()"><h3>Back to Top</h3>
+	</div>
 
   </body>
 
