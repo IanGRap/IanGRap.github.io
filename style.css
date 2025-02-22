@@ -140,6 +140,29 @@ a:hover {
 	height: 95%;
 }
 
+.character-background {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 95%;
+	background-color: #626575;
+	color: #E6E8E6;
+	border-radius: 10px;
+	padding: 30px;
+	font-size: 18px;
+}
+
+.alt-character-background {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 95%;
+	color: #626575;
+	border-radius: 10px;
+	padding: 30px;
+	font-size: 18px;
+}
+
 .bullets {
 	font-size: 1.5rem;
 	padding: 20px;
