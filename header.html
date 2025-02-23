@@ -3,5 +3,12 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="script.js"></script>
-<link rel="stylesheet" href="style.css">
+<script>
+	var myStylesheet = document.querySelector('#my-stylesheet');
+	myStylesheet.onload = function() {
+		console.log("test loaded");
+		document.querySelectorAll('.hide-while-loading').forEach(element => element.style.display = "block");
+	}
+</script>
+<link rel="stylesheet" href="style.css" id="my-stylesheet">
 <title>Ian Modak-Rapoport's Portfolio</title>
