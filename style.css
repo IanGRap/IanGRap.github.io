@@ -90,19 +90,7 @@ a:hover {
 	color: #E6E8E6;
 	border-radius: 20px;
 	padding: 20px;
-	height: 900px;
-}
-
-.project-card-small {
-	border-radius: 0.5;
-	margin: auto;
-	margin-top: 20px;
-	width: 100%;
-	background-color: #626575;
-	color: #E6E8E6;
-	border-radius: 20px;
-	padding: 20px;
-	height: 750px;
+	min-height: 700px;
 }
 
 .project-thumbnail {
@@ -136,7 +124,7 @@ a:hover {
 	color: #E6E8E6;
 	border-radius: 10px;
 	padding: 30px;
-	font-size: 18px;
+	font-size: 1.5rem;
 	height: 95%;
 }
 
@@ -149,7 +137,7 @@ a:hover {
 	color: #E6E8E6;
 	border-radius: 10px;
 	padding: 30px;
-	font-size: 18px;
+	font-size: 1.5rem;
 }
 
 .alt-character-background {
@@ -160,7 +148,7 @@ a:hover {
 	color: #626575;
 	border-radius: 10px;
 	padding: 30px;
-	font-size: 18px;
+	font-size: 1.5rem;
 }
 
 .bullets {
