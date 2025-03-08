@@ -6,8 +6,9 @@
 <script>
 	var myStylesheet = document.querySelector('#my-stylesheet');
 	myStylesheet.onload = function() {
-		console.log("test loaded");
-		document.querySelectorAll('.hide-while-loading').forEach(element => element.style.display = "block");
+		setTimeout(function(){
+			document.querySelectorAll('.hide-while-loading').forEach(element => element.style.display = "block");
+		}, 2000);
 	}
 </script>
 <link rel="stylesheet" href="style.css" id="my-stylesheet">
